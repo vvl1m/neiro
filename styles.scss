@@ -1,0 +1,20 @@
+body {
+    background: url(/tipidor.jpg);
+    background-size: cover;
+        #app {
+            margin: auto;
+            text-align: center;
+            font-size: 35px;
+            button {
+                padding: 25px;
+                font-size: 24px;
+                border-radius: 54px;
+                margin-top: 15px;
+            }
+        }
+}
+@media screen and (orientation:landscape) and (min-width:770px){
+    #app {
+        display: none;
+    }
+}
