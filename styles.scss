@@ -4,12 +4,21 @@ body {
         #app {
             margin: auto;
             text-align: center;
-            font-size: 35px;
+            font-size: 55px;
+            margin-top: 200px;
             button {
                 padding: 25px;
                 font-size: 24px;
                 border-radius: 54px;
                 margin-top: 15px;
+            }
+            #webcam-container {
+                margin-top: 15px;
+            }
+            #label-container {
+                margin-top: 15px;
+                font-size: 35px;
+                background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
             }
         }
 }
